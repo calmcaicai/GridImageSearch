@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/set_options"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/asearch_menu" 
+        android:checkable="true" 
+       />
+
+</menu>
